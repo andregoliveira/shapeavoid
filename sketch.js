@@ -154,18 +154,18 @@ function draw() {
     }
   }
 
-  console.log("Number of shapes: " + count);
+  //console.log("Number of shapes: " + count);
 
   prevFrame.copy(camera, 0, 0, camera.width, camera.height, 0, 0, camera.width, camera.height);
 }
 
 function randomColor() {
   let colors = [
-    color(255, 140, 0),   
-    color(0, 255, 0),     
-    color(255, 105, 180), 
-    color(255, 255, 0),   
-    color(0, 0, 255)      
+    color(255, 138, 0),   
+    color(58, 232, 96),     
+    color(253, 72, 235), 
+    color(249, 219, 60),   
+    color(54, 98, 245)      
   ];
   return random(colors);
 }
