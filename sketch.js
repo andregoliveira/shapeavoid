@@ -1,4 +1,4 @@
-const num_shapes = 100;
+const num_shapes = 70;
 const motion_threshold = 5;
 const smoothing = 1.0;
 
